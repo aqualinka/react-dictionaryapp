@@ -11,7 +11,7 @@ function App() {
           <h1>D.I.C.T.I.O.N.A.R.Y</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunshine"/>
         </main>
         <footer>
           Coded By Mika and <a href="https://github.com/aqualinka/react-dictionaryapp" target="_blank" rel="noopener noreferrer">open-sourced </a>
