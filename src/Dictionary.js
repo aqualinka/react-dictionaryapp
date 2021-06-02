@@ -32,11 +32,12 @@ function handleResponse(response){
 if(loaded){
     return (<div className="Dictionary">
     <section>
+        <h2>What word do you want to look up?</h2>
         <form onSubmit={submitForm}>
-            <input onChange={changeInputValue} type="text" autoFocus={true} className="form-control"/>
+            <input onChange={changeInputValue} type="text" autoFocus={true} defaultValue={props.defaultKeyword} className="form-control"/>
         </form>
-    </section>    
-   
+        <p>suggested words: sunset, yellow, book, beach..</p>
+    </section>   
     <Results results={results}/>
 </div>);
 } else  {

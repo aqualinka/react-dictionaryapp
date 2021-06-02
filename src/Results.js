@@ -14,15 +14,13 @@ console.log(props.results);
                     </div>);
                 })}
             </section>
-            <section>
+            
             {props.results.meanings.map(function(meaning, index){
-                    return (<div key={index}>
+                    return (<section key={index}>
                         <Meaning meaning={meaning}/>
-                    </div>
+                    </section>
                     );
-                })} 
-            </section>
-               
+                })}              
             </div>);
     } else {
         return null;
