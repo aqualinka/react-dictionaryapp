@@ -1,0 +1,9 @@
+.partofspeechWord{
+    color: rgb(19, 83, 221);
+    border-bottom: 1px solid cadetblue;
+   
+}
+.exampleText{
+    font-style: italic;
+    opacity: 0.5;
+}

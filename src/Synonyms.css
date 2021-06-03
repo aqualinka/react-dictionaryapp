@@ -1,0 +1,10 @@
+.Synonyms span{
+    font-weight: bold;
+}
+.Synonyms li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+    color: cadetblue;
+}

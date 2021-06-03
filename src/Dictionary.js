@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
+import "./Dictionary.css"
 
 export default function Dictionary(props){
 const [keyword,setKeyword]= useState(props.defaultKeyword);
@@ -42,11 +43,13 @@ function handlePexelsResponse(event){
 if(loaded){
     return (<div className="Dictionary">
     <section>
-        <h2>What word do you want to look up?</h2>
+        <h2 className="secondheading">What word do you want to look up?</h2>
+        <p>
         <form onSubmit={submitForm}>
             <input onChange={changeInputValue} type="text" autoFocus={true} defaultValue={props.defaultKeyword} className="form-control"/>
         </form>
-        <p>suggested words: sunset, yellow, book, beach..</p>
+        </p>
+        <p className="hint">suggested words: sunset, yellow, book, beach..</p>
     </section>   
     <Results results={results}/>
     <Photos photos={photos}/>

@@ -1,0 +1,15 @@
+.Dictionary input{
+    font-size: 20px;
+}
+.secondheading{
+    margin-bottom : 20px;
+    font-weight: 700;
+}
+p{
+    margin: 0;
+}
+.hint{
+  
+    font-style: italic;
+    opacity: 0.7;
+}
