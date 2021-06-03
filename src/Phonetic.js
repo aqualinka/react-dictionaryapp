@@ -9,6 +9,6 @@ export default function Phonetic(props){
     }
     return (<div className="Phonetic">
         <span>{props.phonetic.text}</span>{" "}
-        <a href="/" onClick={listenAudio}>listen</a>
+        <a href="/" onClick={listenAudio} className="btn btn-success">listen</a>
     </div>);
 }
