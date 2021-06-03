@@ -10,11 +10,11 @@ export default function Photos(props){
                     <a href={photo.src.original} target="_blank" rel="noreferrer">
                     <img src={photo.src.landscape} alt="foto" className="img-fluid"/>
                     </a>
-                </div>)
+                </div>);
             })}
             
         </div>
-    </section>);
+        </section>);
     } else {
         <p>Loading photos...</p>
         return null;
