@@ -11,7 +11,7 @@ function App() {
           <h1 className="text-center">D.I.C.T.I.O.N.A.R.Y</h1>
         </header>
         <main>
-          <Dictionary defaultKeyword="sunshine"/>
+          <Dictionary defaultKeyword="coding"/>
         </main>
         <footer className="text-center">
           Coded By Mika | <a href="https://github.com/aqualinka/react-dictionaryapp" target="_blank" rel="noopener noreferrer">open-sourced on Github</a>| hosted on <a href="https://relaxed-shockley-3c677b.netlify.app/">Netlify</a>
