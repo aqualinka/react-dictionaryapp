@@ -1,15 +1,16 @@
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    background-image: linear-gradient(90deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 .container{
     width: 80%;
 }
 .App-header h1{
+   
    text-align: center;
    font-size: 45px;
-   font-weight: 900;
+
 }
 section {
     background: rgba(237, 241, 241, 0.5);
@@ -21,7 +22,7 @@ section {
 footer span{
     font-family: monospace;
     opacity: 0.8;
-  text-shadow: 2px 5px 10px blue;
+    text-shadow: 2px 5px 10px blue;
 }
 footer a{
     color: rgb(19, 83, 221);
