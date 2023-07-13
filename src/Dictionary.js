@@ -20,12 +20,12 @@ function submitForm(event){
   //  alert("searching for word");  
 }
 function search(){
-    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_GB/${keyword}`;
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
 
     let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=12`; 
     let pexelsApiKey= `563492ad6f917000010000018a6b71beefa5435787a5baa9f53c207e`;
-    let headers = { Authorization: `Bearer ${pexelsApiKey}` };
+    let headers = { Authorization:  pexelsApiKey };
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
 }
 
@@ -44,11 +44,11 @@ if(loaded){
     return (<div className="Dictionary">
     <section>
         <h2 className="secondheading">What word do you want to look up?</h2>
-        <p>
+        <div>
         <form onSubmit={submitForm}>
             <input onChange={changeInputValue} type="text" autoFocus={true} defaultValue={props.defaultKeyword} className="form-control"/>
         </form>
-        </p>
+        </div>
         <p className="hint">suggested words: sunset, yellow, book, beach..</p>
     </section>   
     <Results results={results}/>
