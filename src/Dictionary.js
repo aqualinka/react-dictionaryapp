@@ -20,6 +20,7 @@ function submitForm(event){
   //  alert("searching for word");  
 }
 function search(){
+   
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
 
@@ -35,6 +36,7 @@ function changeInputValue(event){
 
 function handleResponse(response){  
     setResults(response.data[0]);
+    
 }
 function handlePexelsResponse(event){
     setPhotos(event.data.photos);
