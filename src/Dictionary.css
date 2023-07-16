@@ -2,6 +2,9 @@
     font-size: 20px;
 }
 .secondheading{
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: 500;
+    font-size: 38px;
     margin-bottom : 20px;
 
 }
@@ -9,7 +12,7 @@ p{
     margin: 0;
 }
 .hint{
-  
+    color: rgb(100, 17, 68);
     font-style: italic;
     opacity: 0.7;
 }

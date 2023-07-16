@@ -1,13 +1,16 @@
 body{
-    font-family: 'Times New Roman', Times, serif;
+font-family: 'Rhodium Libre', serif;
     box-sizing: border-box;
-    background-image: linear-gradient(90deg, #a1c4fd 0%, #c2e9fb 100%);
+    background: linear-gradient(109.6deg, rgba(17, 151, 147,0.8) 11.2%, rgba(154, 214, 212, 0.3) 55.4%, rgba(255, 233, 171, 0.9) 100.2%), url("/src/photos/dictionarycafe.jpg");
+   background-size: cover;
+    background-repeat: no-repeat;
 }
 .container{
     width: 80%;
 }
 .App-header h1{
-   
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: 800;
    text-align: center;
    font-size: 45px;
 
@@ -20,12 +23,12 @@ section {
     box-shadow:5px 0 10px rgba(164, 164, 165, 0.5);
 }
 footer span{
-    font-family: monospace;
-    opacity: 0.8;
-    text-shadow: 2px 5px 10px blue;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Reenie Beanie', cursive;
 }
 footer a{
-    color: rgb(19, 83, 221);
+    color: rgb(11, 185, 180);
     text-decoration: none;
     transition: all 150ms ease-in-out;
 }
