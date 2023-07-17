@@ -45,7 +45,7 @@ function handlePexelsResponse(event){
 if(loaded){
     return (<div className="Dictionary">
     <section>
-        <h2 className="secondheading">What word do you want to look up?</h2>
+        <h2 className="secondheading typingText">What word do you want to look up?</h2>
         <div>
         <form onSubmit={submitForm}>
             <input onChange={changeInputValue} type="text" autoFocus={true} defaultValue={props.defaultKeyword} className="form-control"/>
