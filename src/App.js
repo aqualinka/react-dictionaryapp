@@ -18,7 +18,7 @@ function App() {
         </main>
         <footer className="text-center">
           <span>Coded By Michaela Kovacova</span> | <a href="https://github.com/aqualinka/react-dictionaryapp" target="_blank" rel="noopener noreferrer">    
-          <FaGithub /></a> | <a href="https://relaxed-shockley-3c677b.netlify.app/"> 
+          <FaGithub /></a> | <a href="https://englishdictionarybook.netlify.app"> 
           <SiNetlify/> </a>
         </footer>
       </div>
