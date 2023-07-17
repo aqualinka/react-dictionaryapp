@@ -1,5 +1,6 @@
 body{
 font-family: 'Rhodium Libre', serif;
+font-size: 16px;
     box-sizing: border-box;
     background: linear-gradient(109.6deg, rgba(17, 151, 147,0.8) 11.2%, rgba(154, 214, 212, 0.3) 55.4%, rgba(255, 233, 171, 0.9) 100.2%), url("/src/photos/dictionarycafe.jpg");
    background-size: cover;
@@ -11,8 +12,8 @@ font-family: 'Rhodium Libre', serif;
 .App-header h1{
     font-family: 'Reenie Beanie', cursive;
     font-weight: 800;
-   text-align: center;
-   font-size: 45px;
+    text-align: center;
+    font-size: 56px;
 
 }
 section {
@@ -23,7 +24,7 @@ section {
     box-shadow:5px 0 10px rgba(164, 164, 165, 0.5);
 }
 footer span{
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 600;
     font-family: 'Reenie Beanie', cursive;
 }
@@ -36,3 +37,16 @@ footer a:hover{
    opacity: 0.7;
 }
 
+@media screen and (max-width: 800px) {
+    body{
+        font-size: 14px;
+    }
+   .container{
+    width: 90%;
+
+   }
+   .App-header h1{
+    font-size: 38px;
+   }
+
+}

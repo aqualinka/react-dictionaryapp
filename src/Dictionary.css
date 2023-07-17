@@ -31,3 +31,11 @@ p{
     white-space: nowrap; 
     border-right: 2px solid; 
   }
+  @media  screen and (max-width: 600px) {
+    .secondheading{
+      font-size: 24px;
+    }
+    .Dictionary input{
+      font-size: 18px;
+  }
+  }
